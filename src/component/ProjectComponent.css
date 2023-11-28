@@ -67,7 +67,7 @@ a{
 /* CSS for smaller screens*/
 @media screen and (min-width: 375px) and (max-width: 812px) {
   .experience-page {
-    height: 135vh; 
+    height: 140vh; 
     width: 0px;
     display: flex;
     flex-direction:column;
