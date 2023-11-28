@@ -1,0 +1,49 @@
+.footer {
+  padding-top: 10px;
+    margin:0px;
+  }
+.footer.dark{
+    background-color: #2D2926ff;
+    color: #fff;
+}
+.footer.light{
+    background-color:#fff;
+    color: #333;
+  }
+  button{
+    background-color:#E94b3cff;
+    border: 2px solid #E94b3cff;
+    padding: 10px;
+    margin-bottom:10px ;
+    margin-left: 5px;
+    border-radius: 1rem;
+    font-weight: bold;
+    
+  }
+  /* CSS for smaller screens*/
+  @media screen and (min-width: 375px) and (max-width: 812px) {
+    .footer{
+      padding: 0;
+      margin: 0px;
+    }
+    .footer.dark{
+      height: auto;
+      background-color: #2D2926ff;
+      color: #fff;
+  }
+  .footer.light{
+      background-color:#fff;
+      color: #333;
+    }
+  button{
+   width: 20px;
+   height: 20px;
+   margin-top: 100px;
+   margin-left: 10px;
+   margin-bottom: 30px;
+   padding:5px;
+   font-size: 0.6rem;
+   justify-content: start;
+   color: transparent;
+    }
+   }

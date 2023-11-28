@@ -1,0 +1,83 @@
+.Education{
+  text-align: center;
+  height: 80vh;  
+}
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 80px; 
+}
+.education-card {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 0;
+  width: 300px;
+  height: 100px;
+  transition: all 0.3s ease-in-out;  
+  background-color:#E94b3cff;
+}
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.education-icon {
+  font-size: 40px;
+  margin-right: 20px;
+}
+.education-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.education-details h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.education-details p {
+  font-size: 16px;
+  margin: 0;
+}
+.education-details h4 {
+  margin: 0;
+}
+h1{
+padding:0 ;
+}
+/* CSS for smaller screens*/
+@media screen and (min-width: 375px) and (max-width: 812px){
+.education-container {
+    margin-top: 40px; 
+  }
+.education-card {
+    width: 150px;
+    height: 100px;
+  }
+h1{
+  margin-top: 100px;
+  font-size:2rem;
+}
+.education-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.education-details h3 {
+  font-size:0.9rem;
+
+}
+.education-details h4 {
+  font-size:0.8rem;
+
+}
+.education-details p {
+  font-size: 0.7rem;
+}
+.Education{
+  height: 60vh;
+}
+}
